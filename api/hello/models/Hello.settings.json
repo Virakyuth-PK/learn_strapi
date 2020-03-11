@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "hellos",
+  "info": {
+    "name": "hello",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+        "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "first-project",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "node_modules/.bin/nodemon --watch config --watch api server.js --harmony",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "@hapi/boom": "^9.0.0",
+    "chance": "^1.1.4",
+    "mongoose": "^5.9.4",
+    "strapi": "3.0.0-beta.19.3",
+    "strapi-admin": "3.0.0-beta.19.3",
+    "strapi-connector-mongoose": "3.0.0-beta.19.3",
+    "strapi-plugin-content-manager": "3.0.0-beta.19.3",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.19.3",
+    "strapi-plugin-email": "3.0.0-beta.19.3",
+    "strapi-plugin-upload": "3.0.0-beta.19.3",
+    "strapi-plugin-users-permissions": "3.0.0-beta.19.3",
+    "strapi-utils": "3.0.0-beta.19.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "efbff74b-81a9-433b-9275-a21604994739"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
